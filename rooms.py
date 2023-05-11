@@ -37,8 +37,7 @@ def room2():
            "\n\tThis is our warning to the traveler who comes to this room, "
            "\n\tYou can jump into one of the chemical pools, "
            "\n\tAt the bottom of each pool, you will find the secret passage, "
-           "\n\tBut if you swim in the chemical, you get a mysterious animal trait."
-           "\n\tNow write the color of the most innocent colorful pool... ")
+           "\n\tBut if you swim in the chemical, you get a mysterious animal trait.")
 
     color = input("\nNow write the color of the most innocent colorful pool."
            "\n(Green/Red/Blue): ")
@@ -53,7 +52,7 @@ def room2():
         
     if color.lower() == "red":
         print("\nThis pool has turned you into a flea-human. "
-              "Now you can jump 40 times your height like a flea, "
+              "Now you can jump 200 times your height like a flea, "
               "but now you're a dwarf. Luckily you made it through the portal "
               "and found yourself in the Brains' Chamber.")
         ability = "flea"
